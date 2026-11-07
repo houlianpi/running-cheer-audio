@@ -10,6 +10,30 @@ body{font-family:system-ui,sans-serif;max-width:640px;margin:64px auto;padding:0
 </head>
 <body>
 <h1>跑步加油 · 语音试听</h1>
+<h2>新增：CosyVoice 3 模型试听</h2>
+<p>通过官方 Hugging Face 在线演示使用 Fun-CosyVoice3-0.5B-2512 真实生成。三段共用文案和参考音色；参考音色取自此前 Edge TTS 晓北冲刺版，不是明星或真人录音。</p>
+<p><small>在线演示一次只能选择一种指令。以下名称表示实际发送的指令，不保证口音地道或情绪一定达到预期；请试听比较。保留原始 WAV，无额外变速、升调加工。</small></p>
+<nav><a href="#cv-tianjin">天津口音版</a> · <a href="#cv-energetic">开心加油版</a> · <a href="#cv-cheer">大声助威版</a></nav>
+<section id="cv-tianjin">
+<h3>CosyVoice 3 · 天津口音指令版</h3>
+<p><small>指令：请用天津话表达。约 12 秒。</small></p>
+<audio aria-label="CosyVoice天津口音试听" controls preload="metadata" src="cosyvoice3-tianjin.wav"></audio>
+<p><a href="cosyvoice3-tianjin.wav">直接打开 WAV</a> · <a href="cosyvoice3-tianjin.wav" download>下载</a></p>
+</section>
+<section id="cv-energetic">
+<h3>CosyVoice 3 · 普通话开心加油版</h3>
+<p><small>指令：请非常开心地说一句话。约 15 秒。</small></p>
+<audio aria-label="CosyVoice开心加油试听" controls preload="metadata" src="cosyvoice3-energetic.wav"></audio>
+<p><a href="cosyvoice3-energetic.wav">直接打开 WAV</a> · <a href="cosyvoice3-energetic.wav" download>下载</a></p>
+</section>
+<section id="cv-cheer">
+<h3>CosyVoice 3 · 普通话大声助威版</h3>
+<p><small>指令：Please say a sentence as loudly as possible. 约 15 秒。</small></p>
+<audio aria-label="CosyVoice大声助威试听" controls preload="metadata" src="cosyvoice3-cheer.wav"></audio>
+<p><a href="cosyvoice3-cheer.wav">直接打开 WAV</a> · <a href="cosyvoice3-cheer.wav" download>下载</a></p>
+</section>
+<details><summary>查看 CosyVoice 共用文案</summary><blockquote>加油！加油！终点就在前面！抬起头，稳住呼吸！最后这段路，跑出你的精气神！一步，再一步！好样的！大家都在给你加油！向着终点，冲！</blockquote></details>
+<hr>
 <h2>新增：冲刺加油版</h2>
 <p>三段共用冲刺文案：语速 +20%、音调 +4Hz、音量 +10%。通过短句与感叹句增强鼓劲感；Edge TTS 没有独立情绪强度参数，不保证喊叫效果。</p>
 <nav><a href="#xiaoni-sprint">晓妮冲刺版</a> · <a href="#xiaobei-sprint">晓北冲刺版</a> · <a href="#hsiaochen-sprint">台湾女生冲刺版</a></nav>
